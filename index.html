@@ -10,102 +10,87 @@
 margin:0;
 padding:0;
 box-sizing:border-box;
-font-family:Arial, sans-serif;
+font-family:Arial,sans-serif;
 }
 
 body{
-background:#f8f8f8;
+background:#f5f7fa;
 color:#333;
 }
 
 .hero{
-background:linear-gradient(135deg,#0a2342,#1c4e80);
+background:linear-gradient(135deg,#001f4d,#0b4ea2);
 color:white;
-padding:80px 20px;
 text-align:center;
+padding:100px 20px;
 }
 
 .hero h1{
-font-size:48px;
-margin-bottom:10px;
+font-size:55px;
+margin-bottom:15px;
 }
 
 .hero p{
-font-size:20px;
-margin-bottom:20px;
+font-size:22px;
+margin-bottom:30px;
 }
 
 .btn{
 display:inline-block;
-background:#f7b500;
+padding:15px 35px;
+background:#ffb400;
 color:black;
-padding:12px 25px;
-text-decoration:none;
-border-radius:30px;
 font-weight:bold;
+border-radius:40px;
+text-decoration:none;
 }
 
 .section{
 padding:60px 20px;
-max-width:1200px;
+text-align:center;
+max-width:1100px;
 margin:auto;
 }
 
 .section h2{
-text-align:center;
-margin-bottom:30px;
-color:#0a2342;
+font-size:40px;
+margin-bottom:20px;
+color:#002b5c;
 }
 
-.about{
-text-align:center;
+.section p{
+font-size:18px;
 line-height:1.8;
 }
 
 .products{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
 gap:20px;
+margin-top:40px;
 }
 
 .card{
 background:white;
-padding:25px;
-border-radius:10px;
+padding:30px;
+border-radius:15px;
 box-shadow:0 5px 15px rgba(0,0,0,0.1);
-text-align:center;
 }
 
 .card h3{
-color:#0a2342;
+color:#0b4ea2;
 margin-bottom:10px;
 }
 
-.why{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:20px;
-}
-
-.feature{
-background:white;
-padding:20px;
-border-radius:10px;
-box-shadow:0 5px 15px rgba(0,0,0,0.1);
-}
-
-.contact{
-background:#0a2342;
-color:white;
-text-align:center;
-padding:60px 20px;
-}
-
 .footer{
-background:black;
+background:#001f4d;
 color:white;
+padding:40px 20px;
 text-align:center;
-padding:15px;
+}
+
+.footer h3{
+margin-bottom:15px;
 }
 
 .whatsapp{
@@ -114,9 +99,9 @@ bottom:20px;
 right:20px;
 background:#25D366;
 color:white;
-padding:15px 18px;
+padding:18px;
 border-radius:50%;
-font-size:24px;
+font-size:25px;
 text-decoration:none;
 }
 </style>
@@ -132,13 +117,11 @@ text-decoration:none;
 
 <section class="section">
 <h2>About LECO (R)</h2>
-<div class="about">
 <p>
-LECO (R) has been delivering quality electrical products since 1974.
-With decades of experience and customer trust, we provide reliable
-electrical solutions for residential, commercial and industrial applications.
+For over 52 years, LECO (R) has been delivering quality electrical products
+with reliability, safety and performance. We serve residential,
+commercial and industrial sectors across India.
 </p>
-</div>
 </section>
 
 <section class="section">
@@ -148,63 +131,38 @@ electrical solutions for residential, commercial and industrial applications.
 
 <div class="card">
 <h3>Wires & Cables</h3>
-<p>Premium quality electrical wires and cables.</p>
-</div>
-
-<div class="card">
-<h3>Kit Kat Fuse</h3>
-<p>Reliable porcelain kit kat fuse solutions.</p>
-</div>
-
-<div class="card">
-<h3>Changeover Switches</h3>
-<p>Safe and durable power switching products.</p>
+<p>High quality copper and aluminium cables.</p>
 </div>
 
 <div class="card">
 <h3>Ceiling Fans</h3>
-<p>Energy efficient and stylish fan range.</p>
+<p>Energy efficient premium ceiling fans.</p>
+</div>
+
+<div class="card">
+<h3>Kit Kat Fuse</h3>
+<p>Reliable porcelain fuse units.</p>
+</div>
+
+<div class="card">
+<h3>Changeover Switches</h3>
+<p>Industrial grade switching solutions.</p>
 </div>
 
 </div>
 </section>
 
-<section class="section">
-<h2>Why Choose LECO?</h2>
-
-<div class="why">
-
-<div class="feature">
-<h3>52 Years of Trust</h3>
-<p>Serving customers since 1974.</p>
-</div>
-
-<div class="feature">
-<h3>Quality Products</h3>
-<p>Manufactured with high standards.</p>
-</div>
-
-<div class="feature">
-<h3>Reliable Service</h3>
-<p>Customer satisfaction is our priority.</p>
-</div>
-
-</div>
-
-</section>
-
-<section class="contact" id="contact">
+<section class="section" id="contact">
 <h2>Contact Us</h2>
-<br>
-<p><strong>LECO (R) CABLES</strong></p>
+<p><b>LECO (R) CABLES</b></p>
 <p>Email: lecolucknow@gmail.com</p>
-<p>Phone: +91 73557 37124</p>
-<p>Since 1974</p>
+<p>Mobile: +91 73557 37124</p>
 </section>
 
-<div class="footer">
-© 2026 LECO (R) CABLES. All Rights Reserved.
-</div>
+<footer class="footer">
+<h3>LECO (R) CABLES</h3>
+<p>Since 1974 | 52 Years of Excellence</p>
+</footer>
 
 <a class="whatsapp" href="https://wa.me/917355737124">☎</a>
 
